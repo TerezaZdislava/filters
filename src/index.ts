@@ -1,3 +1,4 @@
-import { createFilters } from "./filters";
+import { createFilters } from './filters';
 
-console.log("Please run tests.");
+const userImput = 2;
+const { listOfCustomers, errorMessage, filters } = createFilters(userImput);
